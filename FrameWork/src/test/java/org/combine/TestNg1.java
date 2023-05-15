@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class TestNg1 {
 	@Test 
-	public void tc1() {
+	public void testCase01() {
 		System.out.println("TC..1"+Thread.currentThread().getId());
 	}
 
