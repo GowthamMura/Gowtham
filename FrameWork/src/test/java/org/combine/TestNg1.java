@@ -9,12 +9,12 @@ public class TestNg1 {
 	}
 
 	@Test 
-	public void tc2() {
+	public void testCase02() {
 		System.out.println("TC..2"+Thread.currentThread().getId());
 	}
 
 	@Test 
-	public void tc3() {
+	public void testCase03() {
 		System.out.println("TC..3"+Thread.currentThread().getId());
 	}
 
